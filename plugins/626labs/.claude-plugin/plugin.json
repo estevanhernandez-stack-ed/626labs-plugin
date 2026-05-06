@@ -8,6 +8,6 @@
   },
   "homepage": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
   "repository": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "keywords": ["design", "brand", "publishing", "626labs", "editorial", "claude-code-plugin"]
 }
