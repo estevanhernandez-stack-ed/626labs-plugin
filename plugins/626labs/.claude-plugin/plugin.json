@@ -7,8 +7,7 @@
     "email": "estevan.hernandez@gmail.com"
   },
   "homepage": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/estevanhernandez-stack-ed/626labs-plugin.git"
-  }
+  "repository": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
+  "license": "UNLICENSED",
+  "keywords": ["design", "brand", "publishing", "626labs", "editorial", "claude-code-plugin"]
 }
