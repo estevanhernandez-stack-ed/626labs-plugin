@@ -1,0 +1,21 @@
+{
+  "name": "626labs",
+  "owner": {
+    "name": "626Labs LLC"
+  },
+  "metadata": {
+    "description": "626 Labs design system + publishing umbrella. Two slash-invocable skills for working across the 626 Labs portfolio."
+  },
+  "plugins": [
+    {
+      "name": "626labs",
+      "source": "./plugins/626labs",
+      "description": "626 Labs design system + publishing umbrella. Two slash-invocable skills: /626labs:design (brand, tokens, UI kit, editorial layer) and /626labs:publishing (studios/works/library/packages router).",
+      "author": {
+        "name": "626Labs LLC"
+      },
+      "keywords": ["design", "brand", "publishing", "626labs", "editorial", "claude-code-plugin"],
+      "category": "design-system"
+    }
+  ]
+}
