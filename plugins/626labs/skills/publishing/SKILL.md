@@ -70,7 +70,7 @@ Tag dashboard decisions to the right project ID:
 - **Studio-internal decisions** (persona changes, sub-skill additions, citation-discipline tweaks) → the studio's project ID.
 - **Per-work decisions** (methodology, scope, advisor feedback) → the work's project ID.
 
-Use `mcp__626Labs__manage_decisions` with `action: log`.
+Use `mcp__626labs-cloud__manage_decisions` with `action: log`.
 
 ## What NOT to do
 
