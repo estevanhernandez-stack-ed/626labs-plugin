@@ -1,6 +1,6 @@
 {
   "name": "626labs",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "626 Labs design system + publishing umbrella as Claude Code skills. Design skill provides brand tokens, type, UI kit, and editorial layer for any 626 surface. Publishing skill orients Claude to the studios/works/library/packages bucket model and routes to the right Lead Writer persona.",
   "author": {
     "name": "Estevan Hernandez",
