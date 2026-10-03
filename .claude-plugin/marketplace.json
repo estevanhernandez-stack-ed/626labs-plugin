@@ -4,7 +4,7 @@
     "name": "626Labs LLC"
   },
   "metadata": {
-    "description": "626 Labs plugins: the design system + publishing umbrella (626labs), and the Lab dashboard connection (626labs-lab)."
+    "description": "626 Labs plugins: the design system + publishing umbrella (626labs), the Lab dashboard connection (626labs-lab), and two Claude Code mods (now-playing, agent-comms)."
   },
   "plugins": [
     {
@@ -37,6 +37,39 @@
         "project-management",
         "decisions",
         "oauth",
+        "claude-code-plugin"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "now-playing",
+      "source": "./plugins/now-playing",
+      "description": "A live now-playing band above the prompt, read from the Windows media session (YouTube Music in Chrome included): artist and title in a per-song letter style and gradient, a glowing progress bar, synced lyrics from LRCLIB, and play/pause/next/prev with /np. Windows only.",
+      "author": {
+        "name": "626Labs LLC"
+      },
+      "keywords": [
+        "mod",
+        "music",
+        "now-playing",
+        "lyrics",
+        "windows",
+        "claude-code-plugin"
+      ],
+      "category": "entertainment"
+    },
+    {
+      "name": "agent-comms",
+      "source": "./plugins/agent-comms",
+      "description": "A band above the prompt listing every message to another agent still waiting on a reply, with a running clock and a toast when the reply lands. Tracks subagents and SendMessage; add MCP tools that ask other agents with the agentTools option.",
+      "author": {
+        "name": "626Labs LLC"
+      },
+      "keywords": [
+        "mod",
+        "agents",
+        "multi-agent",
+        "status",
         "claude-code-plugin"
       ],
       "category": "productivity"
