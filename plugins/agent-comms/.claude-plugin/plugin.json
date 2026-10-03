@@ -1,0 +1,28 @@
+{
+  "name": "agent-comms",
+  "version": "0.2.0",
+  "description": "A band above the prompt listing every message to another agent still waiting on a reply, with a running clock and a toast when the reply lands. Tracks subagents and SendMessage; add MCP tools that ask other agents with the agentTools option.",
+  "author": {
+    "name": "Estevan Hernandez",
+    "email": "hello@626labs.dev"
+  },
+  "homepage": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
+  "repository": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mod",
+    "agents",
+    "multi-agent",
+    "status",
+    "claude-code-plugin"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "agentTools": {
+      "type": "string",
+      "title": "Agent tools",
+      "description": "MCP tools that hand a question to another agent, as tool=Label pairs separated by semicolons. Subagents and SendMessage are always tracked.",
+      "default": ""
+    }
+  }
+}

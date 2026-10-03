@@ -25,6 +25,21 @@ Use the local stdio bridge with a per-machine agent key instead for:
 - headless or scheduled runs, which can't complete a browser sign-in;
 - machines that already run the bridge, where installing this plugin would load the same tools twice.
 
+## Mods: now-playing and agent-comms
+
+Two Claude Code mods: function-hook plugins that draw inside Claude Code itself, in the band above the prompt.
+
+```bash
+/plugin marketplace add estevanhernandez-stack-ed/626labs-plugin
+/plugin install now-playing@626labs
+/plugin install agent-comms@626labs
+```
+
+Restart Claude Code after installing.
+
+- **now-playing** (Windows only): the track playing in the Windows media session, YouTube Music in Chrome included. Each song gets a letter style and color gradient, picked by a fast model and cached, with a default that draws at once. It also shows a glowing progress bar and synced lyrics from [LRCLIB](https://lrclib.net). Playback controls hide after a few seconds and come back on hover; `/np`, `/np next` and `/np prev` work too. The only network calls are the LRCLIB lookup and the style pick.
+- **agent-comms:** lists every message to another agent that is still waiting on a reply, with a running clock, and shows a toast when the reply lands. It tracks subagents and `SendMessage` out of the box. If an MCP tool hands questions to another agent, add it in the `agentTools` option as `tool=Label` pairs separated by semicolons, for example `mcp__fleet__ask=Fleet`.
+
 ## Install (local)
 
 From this repo's parent:

@@ -1,0 +1,21 @@
+{
+  "name": "now-playing",
+  "version": "0.1.0",
+  "description": "A live now-playing band above the prompt, read from the Windows media session (YouTube Music in Chrome included): artist and title in a per-song letter style and gradient, a glowing progress bar, synced lyrics from LRCLIB, and play/pause/next/prev with /np. Windows only.",
+  "author": {
+    "name": "Estevan Hernandez",
+    "email": "hello@626labs.dev"
+  },
+  "homepage": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
+  "repository": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mod",
+    "music",
+    "now-playing",
+    "lyrics",
+    "windows",
+    "claude-code-plugin"
+  ],
+  "types": "./types/index.d.ts"
+}
