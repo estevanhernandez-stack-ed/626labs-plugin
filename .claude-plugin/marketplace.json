@@ -4,7 +4,7 @@
     "name": "626Labs LLC"
   },
   "metadata": {
-    "description": "626 Labs design system + publishing umbrella. Two slash-invocable skills for working across the 626 Labs portfolio."
+    "description": "626 Labs plugins: the design system + publishing umbrella (626labs), and the Lab dashboard connection (626labs-lab)."
   },
   "plugins": [
     {
@@ -14,8 +14,32 @@
       "author": {
         "name": "626Labs LLC"
       },
-      "keywords": ["design", "brand", "publishing", "626labs", "editorial", "claude-code-plugin"],
+      "keywords": [
+        "design",
+        "brand",
+        "publishing",
+        "626labs",
+        "editorial",
+        "claude-code-plugin"
+      ],
       "category": "design-system"
+    },
+    {
+      "name": "626labs-lab",
+      "source": "./plugins/626labs-lab",
+      "description": "Connect Claude Code to The Lab (626 Labs dashboard) over OAuth: projects, tasks, decisions, deployments and IDE control as MCP tools, plus a skill for repo binding, task briefs and decision logging. Sign in once with /mcp.",
+      "author": {
+        "name": "626Labs LLC"
+      },
+      "keywords": [
+        "626labs",
+        "mcp",
+        "project-management",
+        "decisions",
+        "oauth",
+        "claude-code-plugin"
+      ],
+      "category": "productivity"
     }
   ]
 }

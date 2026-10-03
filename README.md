@@ -5,6 +5,26 @@ Two skills for working across the 626 Labs portfolio:
 - **`/626labs:design`** — brand tokens, type stack, UI kit, editorial layer. Use for any 626 surface (hub, admin, widgets, slides, social cards, longform reading).
 - **`/626labs:publishing`** — orients to the `626Labs-Publishing/` umbrella (studios / works / library / packages) and routes to the right Lead Writer persona. Use when starting a new piece, deciding where something belongs, or lifting code into shared packages.
 
+## 626labs-lab: The Lab in any Claude Code session
+
+A second plugin in this marketplace connects Claude Code to The Lab, the 626 Labs dashboard, the way the GitHub plugin connects to GitHub. You sign in once, and it keeps working while you use it. There's no repo clone, no local bridge and no API key.
+
+```bash
+/plugin marketplace add estevanhernandez-stack-ed/626labs-plugin
+/plugin install 626labs-lab@626labs
+/mcp        # pick "lab", sign in with your Google account
+```
+
+It adds:
+- **the `lab` MCP server:** projects, tasks, decisions, deployments and IDE control;
+- **the `/626labs-lab:lab` skill:** binds the repo to its project, briefs open tasks and logs decisions.
+
+You can revoke a sign-in any time from the dashboard: Settings > API Keys > Connected apps.
+
+Use the local stdio bridge with a per-machine agent key instead for:
+- headless or scheduled runs, which can't complete a browser sign-in;
+- machines that already run the bridge, where installing this plugin would load the same tools twice.
+
 ## Install (local)
 
 From this repo's parent:
