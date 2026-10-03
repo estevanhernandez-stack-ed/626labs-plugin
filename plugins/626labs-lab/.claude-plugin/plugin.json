@@ -1,0 +1,20 @@
+{
+  "name": "626labs-lab",
+  "version": "0.1.0",
+  "description": "Connect Claude Code to The Lab, the 626 Labs dashboard. Adds the Lab's MCP server (projects, tasks, decisions, deployments, IDE control) over OAuth: sign in once with /mcp, no local bridge or API key. Includes a skill for binding a repo to its project, briefing open tasks, and logging decisions.",
+  "author": {
+    "name": "Estevan Hernandez",
+    "email": "hello@626labs.dev"
+  },
+  "homepage": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
+  "repository": "https://github.com/estevanhernandez-stack-ed/626labs-plugin",
+  "license": "MIT",
+  "keywords": [
+    "626labs",
+    "mcp",
+    "project-management",
+    "decisions",
+    "oauth",
+    "claude-code-plugin"
+  ]
+}

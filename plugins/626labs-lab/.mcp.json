@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lab": {
+      "type": "http",
+      "url": "https://project-626labs.web.app/mcp"
+    }
+  }
+}
