@@ -8,6 +8,7 @@ Read the `README.md` file within this skill, and explore the other available fil
 
 - `colors_and_type.css` — foundational tokens (colors, type, spacing, motion, shadows/glows)
 - `editorial.css` — editorial layer for longform reading (theses, Field Notes). Extends colors_and_type with light surface, serif body (Source Serif 4), restrained accent use. Use when designing reading surfaces, not UI.
+- `fonts/` — the brand faces as woff2 with `fonts.css` (relative paths); `estefont-pro-inline.css` inlines EsteFont Pro for pages that can't load a sibling file
 - `assets/` — logo + reference imagery
 - `preview/` — small spec cards for each token group
 - `ui_kits/dashboard/` — The Lab Dashboard (Agent OS) recreation — React + CSS
@@ -20,7 +21,9 @@ If the user invokes this skill without any other guidance, ask them what they wa
 - Dark-mode first. Deep navy (`#091023`–`#192e44`) base. Neon cyan `#17d4fa` + magenta `#f22f89` signature duo — always pair them.
 - Product-specific teal `#2ee6c9` used in The Lab Dashboard for primary CTAs and active nav.
 - Type: Space Grotesk (display), Inter (UI), JetBrains Mono (code + small meta labels, always uppercase with +0.12em tracking).
-- Voice: builder-to-builder, second person, short sentences, no emoji in UI, no hedging verbs.
+- Hand: EsteFont Pro (`--font-hand`) for Este's own words only (his quotes, sign-offs). Upright, ~1.2x size, 24px minimum. Not on Google Fonts: load `fonts/fonts.css` or paste `fonts/estefont-pro-inline.css`.
+- Voice: builder-to-builder, second person, short sentences, no emoji in UI, no hedging verbs, em-dashes minimal. Never: empower, leverage, seamlessly, unlock, unleash, best-in-class.
+- Name: "626 Labs" in prose; "626Labs LLC" only for the legal entity.
 - **Audio:** No default system sounds, browser alert chimes, or stock OS dings. If a surface needs audio feedback (notifications, success/error tones, micro-interactions), use **modern crisp tones** — short, intentionally-shaped, brand-coherent. Default to silence over a system beep.
 - Tagline: *Imagine Something Else.*
 
